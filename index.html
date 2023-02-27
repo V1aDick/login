@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <title>To-do_Login</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header-nav">
+            <ul class="header-nav-ul"> 
+                <li class="nav-item"><button class="header-item-button burger" ></button></li>
+                <li class="nav-item"><button class="header-item-button home"></button></li>
+                <li class="nav-item" style="width: 226px;"> <form class="header-form"><button class="header-search-button" type="submit"></button><input id="search" type="search" placeholder="Поиск"></form></li>
+            </ul>
+
+            <ul class="header-nav-ul">
+                <li class="nav-item"><button class="header-item-button plus"></button></li>
+                <li class="nav-item"><button class="header-item-button notification"></button></li>
+                <li class="nav-item"><button class="header-item-button profile"></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <form class="main-section">
+            <div class="main-form-div">
+                <legend class="main-heading">Войти</legend>
+            </div>
+
+            <div class="main-form-div">
+                <a class="main-link" href="#"><img src="img/Google - jpeg.jpg">Войти через Google</img>
+                <a class="main-link second-link" href="#"><img src="img/VK - jpeg.jpg">Войти через VK</a>
+            </div>
+
+            <div class="main-form-div">
+                <label class="main-label" for="">E-mail</label>
+                <input class="main-input" type="search" placeholder="Введите почту" value="text">
+                <label class="main-label" for="">Пароль</label>
+                <input class="main-input" type="search" placeholder="Введите пароль" value="Красный">
+                <a class="main-link-helper" href="#" style="color: #B73C58;">Забыли пароль?</a>
+                <button class="main-button" type="button">Войти</button>
+            </div>
+            
+            <div class="main-form-div">
+                <span class="main-form-span">
+                    Используя для входа Google, Apple или Email-адрес, 
+                    вы соглашаетесь с <a style="text-decoration: underline;" href="#">Условиями использования</a> 
+                    и <a style="text-decoration: underline;" href="#">Политикой конфиденциальности.</a>
+                </span>
+            </div>
+            
+            
+            
+            
+        </form>
+        <span class="main-form-span span2">Ещё нет аккаунта?&ensp;<a style="text-decoration: underline;" href="#">Зарегистрироваться</a></span>
+    </main>
+</body>
+</html>

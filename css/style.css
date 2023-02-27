@@ -1,0 +1,253 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F6F9FF;
+}
+
+/* Header-block */
+
+.header {
+    min-height: 44px;
+    min-width: auto;
+
+    background-color: #F0F4FF;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.header-nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav-item:not(:last-child) {
+    margin: 0 24px 0 0;
+}
+
+.nav-item{
+    width: 24px;
+    height: 24px;
+}
+
+.header-item-button {
+    padding: 0px;
+    background: no-repeat;
+}
+
+.burger {
+    background-image: url(../img/burger.svg);
+    width: 24px;
+    height: 16px;
+}
+
+.home {
+    background-image: url(../img/home.svg);
+    width: 19px;
+    height: 22px;
+}
+
+.plus {
+    background-image: url(../img/plus.svg);
+    width: 20px;
+    height: 20px;
+}
+
+.notification {
+    background-image: url(../img/kolokol.svg);
+    width: 20px;
+    height: 24px;
+}
+
+.profile {
+    background-image: url(../img/profile.svg);
+    width: 24px;
+    height: 24px;
+    
+}
+
+.header-form {
+    display: grid;
+    align-items: center;
+    grid-template-columns: max-content 1fr;
+    background-color: white;
+    width: 100%;
+}
+
+#search {
+    width: 226px;
+    height: 32px;
+    border: none;
+    padding-left: 2rem;
+    background: #FDFDFD;
+    border-radius: 4px;
+    font-family: inherit;
+    letter-spacing: 0.5px;
+}
+
+.header-search-button {
+    background-image: url("../img/lupa.svg ");
+    width: 100%;
+    height: 16px;
+    
+}
+
+.text-field_icon {
+    position: relative;
+}
+
+.text-field_icon::before {
+    content: '';
+    color: #94A4B6;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0.625rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.icon_search  {
+    width: 1rem;
+    background-image: url("../img width='16px' height='15.36px' ");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Main-block */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: center;
+    padding: 24px;
+    gap: 32px;
+
+    width: 428px;
+    /*
+    height: 628px; */
+    
+    background-color: #FDFDFD;
+    box-shadow: 0px 8px 16px rgba(97, 99, 103, 0.15);
+    border-radius: 16px;
+    border-radius: 25px;
+
+    margin-top: 140px;
+}
+
+.main-form-div {
+    width: 100%;
+}
+
+.main-heading {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.main-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+
+    border: 1px solid #94A4B6;
+    border-radius: 16px;  
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    height: 56px;
+
+    gap: 6px;
+
+    color: black;
+
+}
+
+.second-link {
+    margin-top: 16px;
+}
+
+.main-button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    padding: 16px 32px;
+
+    width: 100%;
+    height: 52px;
+
+    background: #00B300;
+    border-radius: 16px;
+
+    border: none;
+
+    color: #FDFDFD;
+
+    margin-top: 24px;
+    border-color: transparent;
+}
+
+.main-input {
+    width: 100%;
+    height: 32px;
+
+    padding: 4px 16px;
+    gap: 16px;
+
+    border: 1px solid #94A4B6;
+    border-radius: 8px;
+
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.main-link-helper {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+
+    color: #B73C58;
+}
+
+.main-label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.main-form-span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    letter-spacing: 0.25px;
+    color: black;
+}
+
+.span2 {
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 168px;
+}
